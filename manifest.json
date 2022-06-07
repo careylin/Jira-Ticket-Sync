@@ -1,16 +1,40 @@
 {
-    "name": "Jira Ticket Sync",
-    "id": "1073234730618485706",
-    "api": "1.0.0",
-    "main": "dist/code.js",
-    "ui": "dist/ui.html",
-    "editorType": ["figma"],
-    "relaunchButtons": [
-        { "command": "open_plugin", "name": "Open Jira Ticket Sync", "multipleSelection": false },
-        { "command": "update_selection", "name": "Update Selected Ticket(s)", "multipleSelection": true },
-        { "command": "update_page", "name": "Update Tickets on Page", "multipleSelection": false },
-        { "command": "update_all", "name": "Update All Tickets", "multipleSelection": false },
-        { "command": "set_library_component", "name": "Use as Global Component", "multipleSelection": false },
-        { "command": "remove_library_component", "name": "Unpublish Global Component", "multipleSelection": false }
-    ]
+  "name": "AT - Jira Ticket Sync",
+  "id": "1073234730618485706",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "relaunchButtons": [
+    {
+      "command": "open_plugin",
+      "name": "Open AT - Jira Ticket Sync",
+      "multipleSelection": false
+    },
+    {
+      "command": "update_selection",
+      "name": "Update Selected Ticket(s)",
+      "multipleSelection": true
+    },
+    {
+      "command": "update_page",
+      "name": "Update Tickets on Page",
+      "multipleSelection": false
+    },
+    {
+      "command": "update_all",
+      "name": "Update All Tickets",
+      "multipleSelection": false
+    },
+    {
+      "command": "set_library_component",
+      "name": "Use as Global Component",
+      "multipleSelection": false
+    },
+    {
+      "command": "remove_library_component",
+      "name": "Unpublish Global Component",
+      "multipleSelection": false
+    }
+  ]
 }
